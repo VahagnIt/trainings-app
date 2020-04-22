@@ -8,8 +8,8 @@ class App extends React.Component {
   render() {
     return (
       <Switch>
-        <Route path="/trainings" component={Training} />
-        <Redirect to="/trainings" />
+        <Route path="/trainings-app" component={Training} />
+        <Redirect to="/trainings-app" />
       </Switch>
     );
   }
