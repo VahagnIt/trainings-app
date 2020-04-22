@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.button {
+  height: 30px;
+  width: 60px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: linear-gradient(to right, #19a09b, #21b8b28a);
+  font-size: 11px;
+  box-shadow: 0 0 10px 10px #d9f1ef;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:disabled {
+  cursor: no-drop;
+  background: #8e8b8b96;
+}
+.page_num {
+  color: #10827d;
+  font-size: 18px;
+  font-weight: bold;
+}

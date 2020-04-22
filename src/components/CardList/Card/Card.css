@@ -1,0 +1,104 @@
+.Card {
+  width: 48%;
+  border: 1px solid #9bdedc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 10px #d9f1ef;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.Card .body {
+  padding: 10px 20px;
+}
+.Card .footer {
+  display: flex;
+  justify-content: center;
+}
+.Card .header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9f8f6;
+  color: #20beb7;
+  position: relative;
+}
+.Card .header > i {
+  font-size: 40px;
+}
+.Card .header div {
+  position: absolute;
+  bottom: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.Card .header div span {
+  background: #fff;
+  padding: 3px 7px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 2px;
+  box-shadow: 0 0 10px 10px #d9f1ef;
+}
+.Card .header div span i {
+  padding-right: 3px;
+}
+.Card .header div span + i {
+  border: 1px solid #9bdedc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: #20beb7;
+  font-size: 20px;
+}
+.Card .header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.Card .body .title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Card .body i {
+  color: #20beb7;
+  margin-right: 5px;
+}
+.Card .body i,
+.Card .body .date {
+  font-size: 12px;
+}
+.Card .footer {
+  padding-bottom: 10px;
+}
+.Card .footer button {
+  padding: 8px 15px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: linear-gradient(to right, #19a09b, #21b8b28a);
+  font-size: 11px;
+  box-shadow: 0 0 10px 10px #d9f1ef;
+  cursor: pointer;
+}
+.Card .footer button i {
+  margin-right: 5px;
+}
+@media (max-width: 460px) {
+  .Card {
+    width: 100%;
+  }
+}
